@@ -4,129 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Fu Xiao</title>
-    <link rel="stylesheet" href="/public/stylesheets/style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo img {
-            width: 100px;
-            height: 100px;
-        }
-
-        .nav-links {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .nav-links li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #ff9900;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .contact-info {
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .contact-form {
-            text-align: left;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        input[type="tel"],
-        textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        input[type="submit"] {
-            background-color: #333;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #ff9900;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
     <%- include('header') %>
     <main>
         <section class="about-me">
             <h1>About Me</h1>
-            <img src="your-image.jpg">
+            <div class="center-image">
+            <img src="images/me.png">
+            </div>
+            <style>
+            </style>
             <p>Hello, My name is Fu Xiao, and I am 36 years old. 
                 I am currently a student at Centennial College, 
                 studying Software Engineering Technology. 
                 This is my third time pursuing higher education.
                  I enjoy off-roading and fishing. 
                  My hope is to become a software engineer in the future.</p>
-            <p>You can download my <a href="pdf" target="_blank">Resume (PDF)</a> to learn more about my qualifications and experience.</p>
+            <p>You can download my <a href="images/Resume.webp" >Resume (PDF)</a> to learn more about my qualifications and experience.</p>
     </section>
 </main>
         </section>
