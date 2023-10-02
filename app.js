@@ -23,11 +23,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 app.use('/', indexRouter);
 app.use('/aboutMe', aboutMeRouter);
 app.use('/projectsPage', projectsPageRouter);
 app.use('/servicePage', servicePageRouter);
 app.use('/contactMe', contactMeRouter);
+
 
 
 

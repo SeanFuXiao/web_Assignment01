@@ -83,20 +83,7 @@
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="Clogo.png">
-            </div>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="aboutMe">AboutMe</a></li>
-                <li><a href="projectsPage">Projects</a></li>
-                <li><a href="servicePage">Services</a></li>
-                <li><a href="contactMe">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <%- include('header') %>
     <main>
         <section class="welcome">
             <h1>Welcome to My Portfolio</h1>
@@ -106,14 +93,6 @@
             <p>Let's create and innovate to make a positive impact on the world.</p>
         </section>
     </main>
-    <footer>
-        <i><small>Copyright &copy; Centennial College COMP229-019<br>
-            Student Name: FU XIAO<br>
-            Student ID: 301339743<br>
-            Student: <a href="mailto:xfu29@my.centennialcollege.ca">Email</a><br>
-            COMP229-019 FALL 2023<br>
-            Assignment #1<br>
-        </small></i>
-    </footer>
+    <%- include('footer') %>
 </body>
 </html>

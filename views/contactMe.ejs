@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Your Name</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -115,20 +115,7 @@
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="Clogo.png">
-            </div>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="aboutMe">About</a></li>
-                <li><a href="projectsPage">Projects</a></li>
-                <li><a href="servicesPage">Services</a></li>
-                <li><a href="contactPage">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <%- include('header') %>
     <main>
         <section class="contact-info">
             <h1>Contact Us</h1>
