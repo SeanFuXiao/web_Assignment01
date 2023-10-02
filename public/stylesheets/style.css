@@ -1,4 +1,6 @@
+/* File Name: style.css   Student Name: Fu Xiao   Student ID: 301339743  Date: 2023/Oct/02 */
 
+/* Global styles for the entire page */
         body {
            font-family: Arial, sans-serif;
             margin: 0;
@@ -6,23 +8,27 @@
             background-color: #f0f0f0;
         }
 
+/* Header styles */
         header {
             background-color: #333;
             color: #fff;
             padding: 20px 0;
         }
 
+/* Navigation bar styles */
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
+/* Logo styles */
         .logo img {
             width: 100px;
             height: 100px;
         }
 
+/* Navigation links styles */
         .nav-links {
             list-style: none;
             margin: 0;
@@ -45,6 +51,7 @@
             color: #ff9900;
         }
 
+/* Main content styles */
         main {
             max-width: 800px;
             margin: 20px auto;
@@ -52,6 +59,8 @@
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+/* Centered image styles */
         center-image {
             display: flex;
             justify-content: center; 
@@ -59,33 +68,41 @@
          
         }
 
+/* Welcome text styles */
         .welcome {
             text-align: center;
         }
 
+/* Heading styles */
         h1 {
             font-size: 36px;
             margin-bottom: 10px;
         }
 
+/* Paragraph text styles */
         p {
             font-size: 18px;
             margin-bottom: 20px;
         }
+
+/* Contact form styles */
         .contact-form {
             text-align: left;
         }
 
+/* Form group styles */
         .form-group {
             margin-bottom: 20px;
         }
 
+/* Label styles */
         label {
             display: block;
             font-weight: bold;
             margin-bottom: 5px;
         }
 
+/* Input and textarea styles */
         input[type="text"],
         input[type="email"],
         input[type="tel"],
@@ -96,6 +113,7 @@
             border-radius: 4px;
         }
 
+/* Submit button styles */
         input[type="submit"] {
             background-color: #333;
             color: #fff;
@@ -108,6 +126,8 @@
         input[type="submit"]:hover {
             background-color: #ff9900;
         }
+
+/* Reset button styles */        
         input[type="reset"] {
             background-color: #333;
             color: #fff;
@@ -121,11 +141,11 @@
             background-color: #ff9900;
         }
         
-
+/* Footer styles */
         footer {
             text-align: center;
             padding: 10px;
             background-color: #333;
             color: #fff;
         }
-    
+/* File Name: style.css   Student Name: Fu Xiao   Student ID: 301339743  Date: 2023/Oct/02 */
