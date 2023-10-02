@@ -108,6 +108,20 @@
         input[type="submit"]:hover {
             background-color: #ff9900;
         }
+        input[type="reset"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="reset"]:hover {
+            background-color: #ff9900;
+        }
+        
+
         footer {
             text-align: center;
             padding: 10px;
